@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>seto的个人简介</title>
+    <style>
+        #side {
+            position: fixed;
+            float: left;
+            top: 200px;
+            background-color: rgb(185, 203, 249);
+            height: 200px;
+            padding: 15px;
+}
+    .abc {
+        color: aqua(97, 131, 203);
+        font-size: 70px;
+    }
+    .www {
+        border-color: black;
+        border-width: 10px;
+        border-style: solid;
+        color: rgba(3, 3, 3, 0.819);
+        font-size: 20px;
+        font-weight: 800;
+        margin: 10px;
+        padding: 10px;
+        background-color: white(15, 21, 20);
+    }
+     .eee {
+        margin: 0 auto;
+     }
+    *{
+                padding: 0px;
+                margin: 0px;
+            }
+            #main{
+                overflow: auto;
+                text-align: center;
+
+            }
+
+            a{
+                text-decoration: none;
+                display: inline-block;
+                height: 60px;
+                width: 200px;
+                color: white;
+                background-color: darkgray;
+                line-height: 60px;
+            }
+            ul{
+                list-style: none;
+            }
+
+            #list{
+                display: inline-block;
+                margin: 0px;
+                padding: 0px;
+                vertical-align: bottom;
+            }
+
+            #list>li{
+                float: left;
+            }
+
+            #list>li>ul{
+                display: none;
+                position: absolute;
+            }
+
+            #list>li:hover ul{
+                display: block;
+            }
+
+            a:hover {
+                background-color: burlywood;
+            }
+            body {
+                background-color: aliceblue;
+                background-repeat: repeat;
+                background-position: center;
+                background-size: 100%;
+            }
+            .zhuanji {
+                float: right;
+            }
+            .geren {
+                position: absolute;
+                float: left;
+                left: 8%;
+                right: 30%;
+                top: 120%;
+                font-weight: 800;
+                font-size: 20px;
+                color: whitesmoke;
+            }
+    </style>
+</head>
+<body>
+    <center>
+    <header>
+        <div style="position:relative">
+        <img width="100%" height="1300x" src="seto.jpg" alt="">
+        <div style="position:absolute; z-index:2; left:500px; top:500px"><h1 class="abc"> seto</h1></div>
+    </div>
+    <div id="main">
+        <ul id="list">
+          <li>
+              <a href="#">热门作品</a>
+              <ul>
+                  <li><a href="#">落日归山海，陪伴成告白</a></li>
+              </ul>
+          </li>
+          <li>
+              <a href="#">相关MV</a>
+          </li>
+          <li>
+              <a href="#">艺人介绍</a>
+              <ul>
+                <li><a href="#">艺人生涯</a></li>
+                <li><a href="#">作曲经历</a></li>
+              </ul>
+          </li>
+        </ul>
+
+      </div>
+    </header>
+    <main>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="www">
+            <p>偌大宇宙 有幸共鸣 luv u （all）</p>
+        </div>
+        <div class="zhuanji">
+        <nav>
+        <img width="350px" height="350px" src="嗯.jpg" alt="" class="eee">
+        <h1>嗯
+            逐渐贫瘠的交流欲
+            忘掉繁杂 放空自己
+            更喜欢呆在大多数梦里的感觉
+            无需言语 若能共鸣
+        </h1><br>
+    </nav>
+        <nav>
+            <img width="350px" height="250px" src=".jpg" alt="">
+            <h1>ᐇ</h1><br>
+        </nav>
+        <nav>
+            <img width="350px" height="350px" src="crush.jpg" alt="">
+            <h1>crush（电锯人电次蕾塞印象曲）
+                泳池嬉戲
+                煙火之吻
+                “ 電次君 其實我也沒有上過學 ”
+                看完漫画后自然流露写出的歌
+                一首短暫 熱烈 刻骨銘心的印象曲</h1><br>
+        </nav>
+        <nav>
+            <img width="350px" height="350px" src="愛？.jpg" alt="">
+            <h1>愛？
+                luv u 2 愛 love in the dark
+                关于爱的三部曲
+                爱里真心 欺骗 幽暗 麻木
+                爱不仅限于他人 多去爱自己吧
+                luv u all
+            </h1><br>
+        </nav>
+        <nav class="geren">
+            <p>
+                活着没有意义不代表不重要 不必多痛苦 不必探究荒诞 不必追问矛盾
+            </p>
+        </nav>
+    </div>
+        <div id="side">
+            <h1>首页</h1><br>
+            <p>人物图片</p><br>
+            <p>留言</p><br>
+            <p>专辑介绍</p><br>
+        </div>
+    </main>
+    <footer></footer>
+</center>
+</body>
+</html>
